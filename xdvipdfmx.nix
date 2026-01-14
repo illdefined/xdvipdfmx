@@ -21,7 +21,7 @@ in writeShellApplication {
       platforms = lib.platforms.all;
       maintainers = with lib.maintainers; [ mvs ];
       license = lib.licenses.eupl12;
-      priority = lib.meta.hiPrio;
+      priority = -10;
     };
   };
 
